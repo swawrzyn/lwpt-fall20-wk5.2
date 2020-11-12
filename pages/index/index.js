@@ -12,20 +12,20 @@ Page({
     // Movies.find() returns a Promise
     Movies.find().then((result) => {
       // This is when the promise is RESOLVED (everything ok)
-      console.log("this will happen second.");
-      console.log("result from ifanr", result);
+      // console.log("this will happen second.");
+      // console.log("result from ifanr", result);
       this.setData({
         items: result.data.objects,
       });
     }, (error) => {
       // This is when the promise is REJECTED (something wrong happened)
-      console.log("it's an error!!", error);
+      // console.log("it's an error!!", error);
     });
 
-    console.log("This will happen first!");
+    // console.log("This will happen first!");
   },
   toMovie: function (e) {
-    console.log('after movie click', e);
+    // console.log('after movie click', e);
     wx.navigateTo({
       // detail?id=fii23fi09r29038r3r290
       url: `detail?id=${e.currentTarget.id}`,

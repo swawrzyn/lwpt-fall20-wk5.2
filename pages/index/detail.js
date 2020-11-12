@@ -35,7 +35,7 @@ Page({
     MovieReviews.setQuery(query)
       .find()
       .then((res) => {
-        console.log("result from movie reviews query find", res);
+        // console.log("result from movie reviews query find", res);
         this.setData({
           items: res.data.objects,
         });

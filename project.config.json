@@ -72,6 +72,13 @@
           "id": -1,
           "name": "pages/index/detail",
           "pathName": "pages/index/detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/profile/index",
+          "pathName": "pages/profile/index",
           "scene": null
         }
       ]
